@@ -1,0 +1,813 @@
+/* ORG CHART STYLES */
+.print {
+ display: none;   
+}
+
+body {
+        font-family: 'Aragon Sans W01';
+}
+.OITLanding {
+  padding-bottom: 20px;
+}
+.departmentHeading {
+    background: transparent url("https://www.uta.edu/cfo/_files/images/title_bar.svg");
+    background: transparent url("https://www.uta.edu/cfo/_files/images/title_bar.svg");
+    background-repeat: no-repeat;
+    background-position: -16px -16px;
+    width: 100%;
+    height: 60px;
+    margin: -27px 0px 0px 0px;
+    position: relative;
+    font-family:'Aragon Sans W01 Bold';
+    text-transform: uppercase;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 1px;
+}
+#main {
+    padding-bottom: 0px;
+}
+/* BEGIN UPPERLEFT BACK BUTTON */
+div.goHome {
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+}
+div.goDepartment {
+    width: 170px;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+}
+a.btn-floating.btn-small.waves-effect.waves-light {
+    background-color: #6e6e6e;
+  height: 35px;
+  width: 35px;
+  float: left;
+}
+a.btn-floating.btn-small.waves-effect.waves-light:hover {
+  background-color: #d0c08c;
+}
+.btn-floating.btn-small .fa {
+  margin-top: 0px;
+}
+i.fa.fa-arrow-left {
+    margin-left: 1px;
+}
+i.fa.fa-link {
+    padding: 0px 0px 0px 3px;
+}
+.back {
+  float: left;
+  margin-top: 20px;
+}
+/* END UPPERLEFT BACK BUTTON */
+.container-fluid.CFO {
+  padding: 0px;
+  float: left;
+  margin-top: 55px;
+  width: 50%;
+  margin-left: 45px;
+  clear: both;
+}
+.container-fluid.uaCFO, .container-fluid.isCFO {
+  margin-top: 50px;
+}
+.personal_title {
+  font-size: 13px;
+}
+.businessAffairs_org, .BA_departmentBranches{
+  font-size: 25px;
+  margin: 15px auto;
+  text-align: center;
+}
+.BA_departmentBranches {
+  text-align: center;
+  margin-top: 0px;
+}
+.departmentBranches {
+  width: 100%;
+  margin: auto;
+  margin-top: 60px;
+}
+.BusinessTechContent {
+  width: 280px;
+  font-size: 15px;
+  margin-top: 15px;
+  line-height: 25px;
+}
+.BusinessTechContent p a {
+    color: #fff;
+}
+.BusinessTechContent p a:hover {
+    color: orange;
+}
+.BusinessTechContent p a:after {
+    color: #d0c08c;
+}
+.BusinessTechContent.director {
+  width: 335px;
+}
+.deco.kelly {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.deco.director {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.deco.kelly {
+  width: 175px;
+  height: 175px;
+  background: url("../_files/pictures/kelly_davis.png");
+  background-size: 170px;
+  background-position: center;
+  border-radius: 50%;
+  float: left;
+  border: 3px solid orange;
+  margin-right: 10px;
+}
+.deco.director {
+  width: 125px;
+  height: 125px;
+  background: url("../_files/pictures/user-circle.png");
+  background-size: 130px 130px;
+  background-position: center;
+  border-radius: 50%;
+  float: left;
+  border: 3px solid orange;
+  margin-right: 15px;
+}
+.deco.director.jeffery {
+    width: 135px;
+    height: 135px;
+	background: url("../_files/pictures/jeffNeyland.png");
+    background-size: 136px 173px;
+    background-position: -1px -1px;
+	border-radius: 50%;
+	float: left;
+	border: 3px solid orange;
+}
+
+.deco.director.lacik {
+  background: url("../_files/pictures/joeLacik.png");
+  background-size: 136px;
+  background-position: center;
+}
+
+.deco.director.emorgan {
+  background: url("../_files/pictures/erinMorgan.png");
+  background-size: 115px 132px;
+  background-position: center;
+}
+
+.deco.director.bergere {
+  background: url("../_files/pictures/dougBergere.png");
+  background-size: 118px;
+  background-position: center;
+}
+
+.deco.director.pJordan {
+  background: url("../_files/pictures/patrickJordan.jpg");
+  background-size: 115px;
+  background-position: center;
+}
+.deco.director.keith {
+  background: url("../_files/pictures/Keith-Halman.png");
+  background-size: 130px 130px;
+  background-position: center;
+}
+.deco.director.johnD {
+  background: url("../_files/pictures/davidson-john.jpeg");
+  background-size: 130px 130px;
+  background-position: center;
+}
+.deco.director.eWixson {
+  background: url("../_files/pictures/wixson_e.jpg");
+  background-size: 130px 130px;
+  background-position: center;
+}
+.deco.director.sScott {
+  background: url("../_files/pictures/scott-stephanie.jpg");
+  background-size: 130px 130px;
+  background-position: center;
+}
+.deco.director.yin {
+  background: url("../_files/pictures/Fong_Yaa-Yin.jpeg");
+  background-size: 130px 130px;
+  background-position: center;
+}
+.deco.director.peteSmith {
+  background: url("../_files/pictures/pete-smith.jpg");
+  background-size: 130px 130px;
+  background-position: center;
+}
+.deco.associate {
+  width: 70px;
+  height: 100px;
+  border-radius: 50%;
+  float: left;
+}
+.deco.associate.raeLynn {
+    background: url("../_files/pictures/rae-lynne.jpg");
+    background-size: 90px 90px;
+    background-position: center;
+}
+.branch.employees {
+  margin-left: 80px;
+}
+.departmentSelect {
+    padding: 1%;
+}
+.btn.departmentSelection.waves-effect.waves-light {
+  background: #2e2e2e;
+  width: auto;
+  padding: 5px;
+  margin: 5px;
+  height: 70px;
+  width: 143px;
+}
+.BA_Title {
+  text-align: left;
+}
+.kellyContent, .jefferyContent {
+  margin: 20px;
+  float: left;
+}
+.kellyContent {
+    line-height: 25px;
+    font-size: 15px;
+}
+.kellyContent p a {
+    color: #fff;
+}
+.kellyContent p a:hover {
+    color: orange;
+}
+.kellyContent p a:after {
+    color: #d0c08c;
+}
+.BA_kellyTitle {
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: left;
+}
+.fa.fa-phone {
+  margin-right: 15px;
+}
+.fa.fa-fax {
+  margin-right: 12px;
+}
+.fa.fa-envelope {
+  margin-right: 12px; 
+}
+.fa.fa-address-card {
+    margin-right: 10px;
+}
+div.carousel-inner {
+  height: auto;
+  width: 100%;
+  margin: 0px;
+}
+.icon-prev, .icon-next {
+  font-weight: bolder;
+}
+.carousel-control {
+    opacity: 1;
+}
+.carousel-control.left, .carousel-control.right {
+  background: transparent;
+    color: #fff;
+  height: 47px;
+    width: 47px;
+    border-radius: 50%;
+  margin-top: 35px;
+    background-repeat: no-repeat;
+}
+.carousel-control.left:hover, .carousel-control.right:hover {
+    background: #d0c08c;
+}
+.carousel-control.left {
+    margin-left: 20px;
+}
+.carousel-control.right {
+    margin-right: 20px;
+}
+i.fa.fa-chevron-left, i.fa.fa-chevron-right {
+    margin-top: 14px !important;
+}
+i.fa.fa-chevron-right {
+    margin-left: 7px;
+}
+ol.carousel-indicators {
+    margin-bottom: 0px !important;
+    bottom: 5px !important;
+}
+.view.hm-black-slight {
+  height: 100%;
+  padding-bottom: 40px;
+  margin-top: 25px;
+}
+.BusinessTechServices.director {
+  margin-left: 35%;
+  margin-bottom: 20px;
+  width: 100%;
+  margin-top: 15px;
+}
+.BusinessTechServices {
+  width: 300px;
+  float: left;
+  margin-bottom: 15px;
+}
+.BusinessTechServices.executiveAssist {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.full-bg-img {
+  background-color: transparent !important;
+    position: relative;
+}
+h1.departmentTitle {
+  text-align: center;
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 18px;
+    color: #fff;
+    background: #3f4349;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 25px 0px 20px;
+}
+
+/* BEGIN BREAK POINTS */
+/* BEGIN DESKTOP BREAK POINTS*/
+@media (min-width: 1441px) {
+  .BusinessTechServices {
+    width: 240px;
+    margin-right: 70px;
+  }
+  .BusinessTechServices.executiveAssist2 {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 1440px) and (min-width: 1330px) {
+  .view.hm-black-slight {
+    height: 540px;
+  }
+  .view.hm-black-slight {
+    height: 100%;
+    padding-bottom: 40px;
+  }
+  .BusinessTechServices.executiveAssist2 {
+    margin-top: 25px;
+    width: 240px;
+  }
+  .BusinessTechServices.executiveAssist {
+    width: 230px;
+  }
+}
+
+@media (max-width: 1330px) and (min-width: 1025px) {
+  #main {
+    max-width: 800px;
+    min-width: 765px;
+  }
+  .BusinessTechServices.executiveAssist2 {
+    margin-top: 25px;
+    width: 240px;
+  }
+  .BusinessTechServices.executiveAssist {
+    width: 230px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .BusinessTechServices {
+    width: 280px;
+  }
+  .view.hm-black-slight {
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  .BusinessTechContent {
+    width: 280px;
+  }
+  .BusinessTechContent.director {
+    margin: 20px 0px 0px 0px;
+  }
+  .BusinessTechServices {
+    width: 245px;
+        margin: 0px;
+  }
+  .branch.employees {
+    margin-left: 60px;
+  }
+  .btn.departmentSelection.waves-effect.waves-light {
+    width: 115px;
+    height: 70px;
+    margin: 0px 5px;
+    padding: 4px;
+  }
+  .container-fluid.CFO {
+    margin-top: 10px;
+    width: 45%;
+    padding-left: 95px;
+    margin-left: 0px;
+  }
+  .BusinessTechServices.executiveAssist2 {
+    margin-top: 25px;
+    width: 240px;
+  }
+  .BusinessTechServices.executiveAssist {
+    width: 230px;
+  }
+
+}
+@media (max-width: 990px) and (min-width: 768px) {
+  #main {
+    width: 655px;
+  }
+  .view.hm-black-slight {
+    height: 100%;
+    padding-bottom: 30px;
+  }
+    .departmentHeading h1 {
+        font-size: 22px;
+    }
+  .BusinessTechServices.executiveAssist2 {
+    margin-top: 25px;
+    width: 240px;
+  }
+  .BusinessTechServices.executiveAssist {
+    width: 230px;
+  }
+}
+/* END DESKTOP BREAK POINTS */
+/* BEGIN TABLET BREAK POINTS */
+@media (max-width: 768px) and (min-width: 320px) {
+  .departmentBranches {
+    width: 65%;
+    margin-top: 60px;
+  }
+}
+@media (max-width: 768px) and (min-width: 572px) {
+  .departmentHeading h1 {
+     font-size: 20px;   
+  }
+  .BA_departmentBranches {
+    font-size: 20px;
+  }
+  .departmentSelection {
+    width: 240px;
+  }
+  .btn.departmentSelection.waves-effect.waves-light {
+    width: 100%;
+    margin-left: 5px;
+  }
+  #main {
+    max-width: 570px !important;
+  }
+  .container-fluid.CFO {
+    width: 31%;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 0px;
+  }
+  .kellyContent {
+    margin: 20px 0px 0px 10px;
+  }
+  .BA_kellyTitle {
+    text-align: center;
+    font-size: 28px;
+  }
+  .view.hm-black-slight {
+    height: 100%;
+    padding-bottom: 30px;
+  }
+  .BusinessTechContent.director {
+    clear: both;
+  }
+  .deco.director {
+    margin-bottom: 15px;
+  }
+  .BusinessTechServices.executiveAssist2 {
+    margin-left: 25px;
+    width: 240px;
+  }
+  .BusinessTechServices.executiveAssist {
+    width: 230px;
+  }
+  .carousel-control.left, .carousel-control-right {
+      margin-top: 37px;
+  }
+}
+@media (max-width: 649px) and (min-width: 544px) {
+    #main {
+        width: 480px;
+    }   
+}
+@media (max-width: 572px) and (min-height: 320px) {
+  .btn.departmentSelection.waves-effect.waves-light {
+    width: 100%;
+    height: 35px;
+    margin-left: auto;
+  }
+  .departmentBranches {
+    width: 85%;
+    margin-top: 60px;
+  }
+}
+@media (max-width: 572px) and (min-width: 425px) {
+  .OITLanding {
+    padding-bottom: 46px;
+  }
+  .businessAffairs_org {
+    font-size: 20px;
+  }
+  .container-fluid.CFO {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    margin-top: 5px;
+  }
+  .view.hm-black-slight {
+    height: 100%;
+    padding-bottom: 40px;
+  }
+  .carousel-control.left, .carousel-control.right {
+      margin-top: 35px;
+  }
+  .carousel-control.left {
+      margin-left: 5px;
+  }
+  .carousel-control.right {
+      margin-right: 5px;
+  }
+  .BusinessTechServices.director {
+    margin-top: 15px;
+  }
+  .BusinessTechContent.director {
+    clear: both;
+  }
+  .BusinessTechServices.executiveAssist2 {
+    margin-left: 25px;
+    width: 240px;
+  }
+  .BusinessTechServices.executiveAssist {
+    width: 230px;
+  }
+  .deco.director {
+    margin-bottom: 15px;
+  }
+}
+/* END TABLET BREAK POINTS */
+/* BEGIN MOBILE BREAK POINTS */
+@media (max-width: 425px) and (min-width: 375px) {
+  #main {
+    margin: 30px auto;
+  }
+  .businessAffairs_org {
+    font-size: 18px;
+  }
+  .departmentHeading {
+    height: 50px;
+  }
+  .container-fluid.CFO {
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  .btn.departmentSelection.waves-effect.waves-light {
+    height: 35px;
+  }
+  .CFO-header {
+      margin-left: 3%;
+  }
+  .deco.kelly {
+    margin-right: 5px;
+  }
+  h3.BA_kellyTitle {
+    font-size: 25px;
+  }
+  .kellyContent {
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+  }
+  .kellyContent p {
+    font-size: 15px;
+        line-height
+  }
+  .deco.kelly {
+    width: 120px;
+    height: 120px;
+        background-size: 115px;
+        margin: 35px 20px 0px 0px;
+  }
+  .branch.employees {
+    margin-left: 30px;
+  }
+  .view.hm-black-slight {
+    height: 100%;
+    padding-bottom: 40px;
+  }
+  .BusinessTechServices.director {
+    margin-left: 32%;
+    margin-top: 15px;
+  }
+  .deco.director {
+    margin-bottom: 15px;
+  }
+  .BusinessTechContent.director {
+    clear: both;
+  }
+  h1.departmentTitle {
+    font-size: 13px;
+  }
+  .BusinessTechServices.executiveAssist {
+    width: 230px;
+    margin-left: 2px;
+  }
+  .carousel-control.left {
+      margin-left: 5px;
+      margin-top: 31px;
+  }
+  .carousel-control.right {
+      margin-right: 5px;
+      margin-top: 31px;
+  }
+}
+@media (max-width: 375px) and (min-width: 320px) {
+  #main {
+    margin: 15px auto 30px;
+  }
+  .OITLanding {
+    padding-bottom: 71px;
+  }
+  .departmentHeading {
+    height: 45px;
+  }
+    .goHome p, .goDepartment p {
+        display: none;
+    }
+    .goHome {
+        margin-left: 0px !important;
+    }
+    .goDepartment {
+        margin-right: 0px !important;
+        width: 55px !important;
+    }
+  .businessAffairs_org {
+    font-size: 16px;
+  }
+  .container-fluid.CFO {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+  .deco.kelly {
+    width: 105px;
+    height: 105px;
+    margin-right: 5px;
+    margin-top: 25px;
+    background-size: 100px;
+    float: left;
+    clear: both;
+    margin-left: 10px;
+  }
+  .BA_kellyTitle {
+    font-size: 22px;
+  }
+  .kellyContent {
+    margin: 5px 0px 0px 7px;
+  }
+  .BusinessTechServices.director {
+    margin-left: 30%;
+    margin-top: 15px;
+  }
+  .deco.director {
+    margin-bottom: 15px;
+  }
+  .BusinessTechContent.director {
+    clear: both;
+  }
+  .BusinessTechServices.executiveAssist {
+    width: 230px;
+    margin-left: 2px;
+  }
+  .branch.employees {
+    margin-left: 20px;
+  }
+  h1.departmentTitle {
+    font-size: 13px;
+  }
+  .carousel-control.left, .carousel-control.right {
+      margin-top: 32px;
+  }
+  .carousel-control.left {
+      margin-left: 5px;
+  }
+  .carousel-control.right {
+      margin-right: 5px;
+  }
+}
+@media (max-width: 320px) {
+  #main {
+    width: 90%;
+    margin-top: 30px;
+  }
+  .OITLanding {
+    padding-bottom: 31px;
+  }
+  .back {
+    display: none;
+  }
+  .goDepartment, .goHome {
+    width: 50px !important;
+  }
+  .departmentHeading {
+    height: 45px;
+  }
+  .BA_departmentBranches {
+    margin: 20px auto;
+  }
+  .businessAffairs_org {
+    font-size: 14px;
+  }
+  .container-fluid.CFO {
+    margin-left: 10px;
+  }
+  .container-fluid.uaCFO, .container-fluid.isCFO {
+    margin-top: 60px;
+    margin-left: 0px;
+  }
+  .deco.kelly {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 25px;
+  }
+  .kellyContent {
+    margin-left: 10px;
+  }
+  .BA_departmentBranches {
+    margin: 0px auto 20px;
+  }
+  .btn.departmentSelection.waves-effect.waves-light {
+    font-size: 15px;
+  }
+  .container-fluid {
+    margin-bottom: 20px;
+  }
+
+  .BusinessTechServices.director {
+    margin-left: 28%;
+  }
+  .BusinessTechServices.executiveAssist {
+    margin-left: 12px;
+  }
+  .BusinessTechServices.executiveAssist2 {
+    margin-top: 0px;
+    margin-left: 12px;
+  }
+  .BusinessTechContent.director {
+    clear: both;
+    margin-top: 5px;
+  }
+  .deco.director {
+    margin-bottom: 10px;
+    margin-left: 12px;
+    width: 100px;
+    height: 100px;
+  }
+  .view.hm-black-slight {
+    height: 100%;
+    padding-bottom: 40px;
+  }
+  .branch.employees {
+    margin-left: 10px;
+  }
+  h1.departmentTitle {
+    font-size: 13px;
+  }
+  .carousel-control.left, .carousel-control.right {
+    height: 30px;
+    width: 30px;
+    margin-top: 42px;
+  }
+  .carousel-control.left {
+    margin-left: 3px;
+  }
+  .carousel-control.right {
+    margin-right: 3px;
+  }
+  i.fa.fa-chevron-left, i.fa.fa-chevron-right {
+    margin-top: 6px !important;
+  }
+}
+/* END MOBILE BREAK POINTS */
+/* END BREAK POINTS */

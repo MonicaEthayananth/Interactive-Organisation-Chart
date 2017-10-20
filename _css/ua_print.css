@@ -1,0 +1,14 @@
+@media print {
+    .carousel {
+        display: none;
+    }
+    .goDepartment {
+        display: none;
+    }
+    .container-fluid.uaCFO, .container-fluid.isCFO {
+        margin-left: 44%;
+    }
+    .view.hm-black-slight {
+        margin-left :44%;
+    }
+}

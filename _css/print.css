@@ -1,0 +1,166 @@
+@media print {
+    @page {
+		size: landscape;
+	}
+	.print {
+		display: block;
+		clear: both;
+        margin-left: 20px;
+	}
+	#content, #page {
+		width: 100%; 
+		margin: 0; 
+		float: none;
+	}
+	body {
+		font: 13pt Georgia, "Times New Roman", Times, serif;
+		line-height: 1.3;
+		background: #fff !important;
+		color: #000;
+		margin: 0px;
+	}
+	h1 {
+		font-size: 20pt;
+	}
+	h2, h3, h4 {
+		font-size: 10pt;
+		color: black;
+	}    
+	nav, button, .fa, .departmentBranches, .goHome, .goDepartment, div.main.clearfix, footer, .carousel, .carousel-control.right, .carousel-control.left {
+	    display: none;
+	}
+    a {
+        color: black;
+    }
+    header {
+        height: 38px;
+    }
+	#main {
+		margin: auto;
+		width: auto;
+		max-width: none !important;
+		background: transparent;
+		padding: 0px;
+        padding-left: 10px;
+	}
+    h1.businessAffairs_org {
+        font-size: 15pt;
+    }
+    h1.departmentTitle {
+        text-transform: none;
+        font-weight: bolder;
+    }
+    .departmentHeading {
+        background: transparent;
+        width: auto;
+        height: 45px;
+    }
+	.container-fluid {
+		margin: 0px;
+		padding: 0px;
+	}
+    .fa.fa-phone, .fa.fa-envelope {
+        margin-right: 5px;
+    }
+    .container-fluid.headCFOCIO {
+        width: 100%;
+    }
+	.container-fluid.CFO {
+		float: left;
+		margin-left: 35% !important;
+		margin-top: 0px;
+		width: 135px;
+		padding: 0px;
+		margin-bottom: 0px;
+	}
+    .container-fluid.CIO {
+        height: 120px;
+        width: 135px;
+        clear: initial;
+        float: left;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+	.deco.kelly {
+		width: 125px;
+		height: 125px;
+	}
+	.deco.director, {
+		height: 85px;
+		width: 85px;
+		margin-right: 0px;
+		margin-left: 15px;
+	}
+	.BA_kellyTitle, .OIT_jefferyTitle {
+		font-size: 10pt !important;
+        font-weight: normal;
+	}
+	.kellyContent, .jefferyContent {
+		margin: 5px 10px 10px;
+        line-height: inherit;
+	}
+	.kellyContent p, .jefferyContent p {
+		font-size: 12px;
+	}
+	.view.hm-black-slight {
+		width: 168px;
+		float: left;
+		margin: 0px 2px;
+	}
+	.hm-black-slight .full-bg-img {
+		background-color: transparent;
+	}
+    .carousel {
+        margin-top: 0px !important;
+    }
+	.BusinessTechServices.director {
+		margin-left: 10px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+    .BusinessTechServices {
+        margin-bottom: 0px;
+        padding: 3px 0px;
+    }
+	.BusinessTechContent {
+		float: left;
+        font-size: 12px;
+        line-height: inherit;
+        margin-top: 10px;
+	}
+    .BusinessTechContent.director {
+        margin: 10px 0px 0px 0px;
+    }
+	.BusinessTechServices.executiveAssist {
+		margin-left: 0px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+	}
+    .BusinessTechServices.executiveAssist2 {
+        margin-top: 0px;
+    }
+	.branch.employees {
+		margin-left: 10px;
+	}
+	.utarlington {
+		display: block;
+	}
+	.full-bg-img {
+		background: transparent;
+	}
+	h1.departmentTitle {
+		height: 20px;
+		font-size: 12px;
+        padding: 10px;
+        margin-bottom: 0px;
+        color: #000;
+        text-align: left;
+	}
+	.deco {
+		display: none;
+	}
+    .personal_title {
+        font-size: 12px !important;
+    }
+}
